@@ -1,0 +1,1 @@
+{"name":"Local: cc_05_04_23_q3","url":"c:\\Users\\admin\\OneDrive\\Desktop\\code\\cp\\cc_05_04_23_q3.py","tests":[{"id":1680707543541,"input":"4\n3\n3 4 4\n4\n1 2 3 4\n2\n2 2\n7\n1 4 4 4 4 4 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\OneDrive\\Desktop\\code\\cp\\cc_05_04_23_q3.py","group":"local","local":true}
