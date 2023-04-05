@@ -1,0 +1,1 @@
+{"name":"Local: hdeliver","url":"c:\\Users\\admin\\Desktop\\cp\\hdeliver.py","tests":[{"id":1670691362363,"input":"1\n4 2\n0 1\n1 2\n3\n0 2\n0 3\n2 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\Desktop\\cp\\hdeliver.py","group":"local","local":true}
