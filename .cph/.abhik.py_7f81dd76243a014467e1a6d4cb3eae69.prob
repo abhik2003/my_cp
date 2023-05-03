@@ -1,1 +1,0 @@
-{"name":"Local: abhik","url":"c:\\Users\\admin\\Desktop\\cp\\abhik.py","tests":[{"id":1670771026520,"input":"2\n4\n1 1 2 3\n4\n1 2 3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\Desktop\\cp\\abhik.py","group":"local","local":true}

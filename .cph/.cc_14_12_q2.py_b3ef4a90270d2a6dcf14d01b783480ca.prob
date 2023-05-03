@@ -1,1 +1,0 @@
-{"name":"Local: cc_14_12_q2","url":"c:\\Users\\admin\\Desktop\\cp\\cc_14_12_q2.py","tests":[{"id":1671030527972,"input":"4\n1\n00\n1\n10\n3\n100000\n3\n100100","output":"-1\n1\n1 3 4     \n1 3 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\Desktop\\cp\\cc_14_12_q2.py","group":"local","local":true}

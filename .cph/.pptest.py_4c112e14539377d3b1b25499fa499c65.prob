@@ -1,1 +1,0 @@
-{"name":"Local: pptest","url":"c:\\Users\\admin\\Desktop\\cp\\pptest.py","tests":[{"id":1670683814095,"input":"1\n3 6\n1 2 3\n2 3 5\n3 3 3","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\admin\\Desktop\\cp\\pptest.py","group":"local","local":true}
