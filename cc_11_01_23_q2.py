@@ -17,4 +17,4 @@ for _ in range (int(input())):
         else:
             print("YES")
     else:
-        print("NO1")        
+        print("NO")        
