@@ -12,8 +12,6 @@ def solve(s:str):
 for _ in range (int(input())):
     n,k=map(int,input().split())
     s=input()
-    # print(solve(s))
-    # continue
     s_list=["" for i in range(k)]
     ans1,ans2=0,0
     for i in range(k):
