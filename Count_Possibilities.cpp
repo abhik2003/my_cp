@@ -57,15 +57,7 @@ void test_case()
         ans[n - after[i] +1]--;
     }
     
-    // for (auto x : after)
-    //     cout << x << " ";
-    // cout << endl;
-    // for (auto x : before)
-    //     cout << x << " ";
-    // cout << endl;
-    // for (auto x : ans)
-    //     cout << x << " ";
-    //     cout << endl;
+    
     cout<<ans[1];
     for (int i = 2; i < n + 1;i++){
         ans[i] += ans[i - 1];
