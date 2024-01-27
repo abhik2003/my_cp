@@ -38,7 +38,7 @@ void test_case()
     int i = n - 1;
     while (odd > 0)
     {
-        v2[i].first = min(v2[i].second - 1, odd);
+        v2[i].first = min(v2[i].second - 3, odd);
         v2[i].second -= v2[i].first;
         odd -= v2[i].first;
         i--;
