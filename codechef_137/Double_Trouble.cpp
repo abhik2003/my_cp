@@ -51,15 +51,51 @@ void test_case()
         return;
     }
     
-    // if(prob.size()==0){
-    //     for (int i = 0; i < n;i++){
-    //         int d = x[i + 1] - x[i];
-    //         if(p[i]<d){
+    if(prob.size()==0){
+        string s = "";
+        int l = 0, r = 0;
+        for (int i = 0; i < n - 1; i++)
+        {
+            int d = x[i + 1] - x[i];
+            if (p[i] >= d && p[i + 1] >= d)
+            {
+                continue;
+            }
+            if(p[i]>=d){
+                s += 'R';
+                r++;
+            }
+            else{
+                s += 'L';
+                l++;
+            }
+        }
+        int p = 0;
+        for (int i = 0; i < ((int)s.length() - 1); i++)
+        {
+            if(s[i]!=s[i+1]){
+                p++;
+            }
+        }
+        if(p>2){
+            cout << "NO\n";
+            return;
+        }
+        else if(p==2){
+            if(l==1 || r==1){
+                cout << "YES\n";
+            }
+            else{
+                cout << "NO\n";
 
-    //         }
-    //     }
-        
-    // }
+            }
+            return;
+        }
+        else{
+            cout << "YES\n";
+            return;
+        }
+    }
 
     bool check1 = 1, check2 = 1;
     for (int i = 0; i < prob[0];i++){
