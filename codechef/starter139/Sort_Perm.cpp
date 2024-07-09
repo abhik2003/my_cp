@@ -37,6 +37,8 @@ bool isFeasible(vector<int> p, int x){
 
     return true;
 }
+
+
 void test_case()
 {
     int n;
